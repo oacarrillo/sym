@@ -62,7 +62,7 @@ public class SymphonyStepDefinition {
     @And("hace clic en el ícono 'Profile' de la barra de navegación")
     public void haceClicEnElIconoProfileDeLaBarraDeNavegacion() {
         searchStep.sendClick("//div[@class='jss17']", "xPath");
-        searchStep.pageLocation("Connectivity Platform", "//*[@id='navigation-menu']/div[3]/nav", "xPath",WebDriverManager.getDriver().getCurrentUrl(),urlSymphony + "inventory/inventory");
+        searchStep.pageLocation("Connectivity Platform", "//*[@id='navigation-menu']/div[3]/nav", "xPath",WebDriverManager.getDriver().getCurrentUrl(),urlSymphony + "inventory");
     }
     @And("hace clic en la opción 'Logout'")
     public void haceClicEnLogout() {
